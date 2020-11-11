@@ -1,0 +1,27 @@
+/* task-3 */
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  column-gap: 20px;
+}
+
+.gallery__item {
+  list-style: none;
+}
+
+.gallery__image {
+  display: block;
+}
+
+/* task-6 */
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
